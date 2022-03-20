@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+<head>
+        <title>book inventory login page</title>
+         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+
+	 <link rel="stylesheet" type="text/css" href="display.css">
+	<style>
+	labeL{
+		padding:5px;
+		margin:10px;
+		}
+	
+
+	</style>
+		
+</head>
+<body>
+        <div class="jumbotron">
+                <div class="container text-center">
+                                <h1>Online Bookstore</h1>
+                                <p><strong>WE HELP TO GAIN KNOWLEDGE</strong></p>
+                </div>
+        </div>
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+                <ul class="navbar-nav">
+                        <li class="nav-item active">
+                        <a class="nav-link" href="homepage.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="registration.html" target="_blank">Registration</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="m3.html">login</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#">User-page</a>
+                        </li>
+                </ul>
+                <div class ="search1 ml-auto">
+                <input type="text" placeholder="search..." style=" color:black; ">&nbsp
+		  <button type="button" value="search" style="color:black; ">Search</button>
+                </div>
+        </nav>
+		<div class="container mt-5">
+			<form action="">
+		<div class="container p-5 my-5 bg-primary text-white">
+			<fieldset>
+		 		<legend><h4>Personal details</h4></legend> 
+				<label for="firstname">First Name:</label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				<input type="text" id="firstname" name="firstname"><br>&nbsp&nbsp<br>
+				<label for="lastname">Last Name:</label>
+				<input type="text" id="lastname:" name=" lastname"><br><br>
+				<label for="fname">Father's Name:</label>
+				<input type="text" id="fname" name="fname"><br><br>
+				<label for="mname">Mother's Name:</label>
+				<input type="text" id="mname" name="mname"><br><br>
+				<label for="dob">Date of Birth</label>
+				<input type="date" id="dob" name="dob"min="1975-12-25" max="2002-12-31"><br><br>
+				<label for="gender">Gender</label>
+				<input type="radio" id="r1"  name="gender"checked="checked" value="male">
+				<label for ="r1"> Male</label>
+				<input type="radio" id="r2" name="gender" value="female">
+				<label for ="r2">female</label><br><br>
+				<textarea id="tal" name="addr" rows="5" cols="30" wrap="physical"placeholder="address"></textarea><br><br> 
+				<label for="email">Enter your email:</label>
+				<input type="email" id="email" name="email"><br><br>
+				<label for="cell_number">Mobile Number</label>
+				<input type="text"id="cell_number" name="cell_number"><br><br>
+				<label for="resident">Are you resident of India</label>
+				<input type="radio" id="r3" name="resident" checked="checked" value="yes'>
+				<label for="r4">Yes</label>
+				<input type="radio" id="r4" name="resident" value="No">
+				<label for="r4">No</label><br><br>
+			</fieldset>
+		</div>
+		<div class="container p-5 my-5 bg-primary text-white">
+			 <fieldset>
+  				<legend><h4>Documents to Upload</h4></legend>
+   				Choose photo <input type="file" name="photo" accept="image/jpeg">
+	<br><br>		SSLC Marks card <input type="file" name="sslc1" accept="image/jpeg">
+	<br><br>		PUC Marks card <input type="file" name="puc2" accept="image/jpeg">	
+	<br><br>		Degree Marks card <input type="file" name="degree1" accept="image/jpeg">
+	<br><br>		Adhaar card <input type="file" name="adhaar2" accept="image/jpeg">
+  				</fieldset>
+		</div>
+		<div class="container p-3 my-3">
+				<input type="submit" value="Submit">
+  				<input type="reset">
+		</div>
+
+		</div>
+</body>
+</html>
